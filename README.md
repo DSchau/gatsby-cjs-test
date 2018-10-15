@@ -16,3 +16,17 @@
     - `gatsby-dev --packages gatsby --scan-once --quiet`
 - Run `yarn test` or `npm test`
 - Observe the passing tests 🎉
+➜ yarn test
+    ```bash
+    yarn run v1.10.1
+    $ mocha --recursive "test/**/*.js"
+
+
+      it can require gatsby
+        ✓ has expected exports
+
+
+      1 passing (6ms)
+
+    ✨  Done in 0.27s.
+    ```
